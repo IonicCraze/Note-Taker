@@ -19,9 +19,9 @@ const writenote = (body, savednotesArray) => {
     return note;
   }; 
   
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
-  });
+  // app.get('*', (req, res) => {
+  //   res.sendFile(path.join(__dirname, './Develop/public/index.html'));
+  // });
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
